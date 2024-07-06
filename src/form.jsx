@@ -154,7 +154,7 @@ export default function Form({ show, setshowform, setSuccess, notification }) {
               Full Stack Development
             </MenuItem>
             
-            <MenuItem value={"Pyhon"}>Python</MenuItem>
+            <MenuItem value={"Python"}>Python</MenuItem>
             <MenuItem value={"Full Stack Java Development"}>
               Full Stack Java Development
             </MenuItem>
