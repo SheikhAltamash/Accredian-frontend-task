@@ -51,9 +51,12 @@ export default function Form({ show, setshowform, setSuccess, notification }) {
       notify();
     try {
       setshowform(false);
-      const response = await axios.post("http://localhost:8080/getdata", {
-        data,
-      });
+      const response = await axios.post(
+        "https://courdemy.onrender.com/getdata",
+        {
+          data,
+        }
+      );
         
         
       setMessage("Form submitted successfully!");

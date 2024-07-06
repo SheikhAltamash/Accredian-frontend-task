@@ -30,7 +30,10 @@ function App() {
             "BDmF4EBOBOEkQxBczbB9zHm2OGhiidy1MXa07Csjv5dSkikUgKHDr-_17LKX4CcSVLtnC6pugIkwszo9QBGHvk8",
         });
         console.log("Token generated ", token)
-        const SendToken = await axios.post("http://localhost:8080/getToken", { token })
+        const SendToken = await axios.post(
+          "https://courdemy.onrender.com/getToken",
+          { token }
+        );
         console.log(SendToken)
       } else if (permission === 'denied') {
         alert("You denied the notification!");
@@ -39,10 +42,10 @@ function App() {
       console.error("Notification request permission error:", error);
     }
 }
-  useEffect(() => {
-    //req user for notification permission
-    requestNotification()
-},[])
+//   useEffect(() => {
+//     //req user for notification permission
+//     requestNotification()
+// },[])
   return (
     <div className="App">
       <Header success={success}></Header>
