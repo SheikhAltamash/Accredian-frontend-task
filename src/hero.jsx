@@ -14,7 +14,7 @@ export default function Hero({show, setshowform}) {
           <button className="btn_nav hero_btn" onClick={()=>{setshowform(true)}}>Refer now</button>
         </div>
         <div className="right">
-          <img src="/Designer (1).jpeg" alt="" />
+          <img src="/d.jpeg" alt="" />
         </div>
       </div>
     );
