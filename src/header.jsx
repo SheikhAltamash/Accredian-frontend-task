@@ -7,7 +7,7 @@ import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 export default function Header({success}) {
   return (
-    <div>
+    <div className="top_nav">
       <div className="success"></div>
       <div className="top">
         {" "}

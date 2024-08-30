@@ -1,5 +1,5 @@
 .top{
-  background:rgb(194, 255, 245) ;
+  background:rgb(194, 211, 255) ;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -11,7 +11,7 @@
 }
 .App{
 margin: -0.5rem;
-background: rgb(236, 255, 252);
+background: rgba(180, 203, 255, 0.196);
 margin-bottom: 1rem;
 }
 .nav{
@@ -25,7 +25,7 @@ margin-bottom: 1rem;
   flex-wrap: wrap;
   justify-content: space-between;
   padding-left: 0.5rem;
-  box-shadow: 0px 1px 3px rgba(122, 255, 233, 0.666);
+  box-shadow: 0px 1px 3px rgb(122, 166, 255);
   background: white;
  
 }
@@ -76,10 +76,10 @@ font-family: "Roboto", sans-serif;
   display: flex;
   justify-content: space-between;
   width: fit-content;
-  background:rgba(122, 255, 233, 0.666);
+  background:rgb(194, 211, 255) ;
 
  
-  border-radius: 15px;
+  border-radius: 10px;
   margin: auto;
   margin-top: 1rem;
 }
@@ -97,8 +97,8 @@ background: white;
 margin: auto;
 margin-top: 1rem;
 width: fit-content;
-border-radius: 15px;
-box-shadow: 0.5px 0.5px 10px  rgb(0, 255, 213);
+
+box-shadow: 0.5px 0.5px 10px  rgb(154, 180, 245) ;
 padding: 1rem;
 
 }
@@ -111,7 +111,7 @@ padding: 1rem;
 
 }
 .refer_process_main{
-  background: rgba(122, 255, 233, 0.666);
+  background:rgb(194, 211, 255) ;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 margin-top: 1rem;
@@ -151,7 +151,7 @@ text-align: center;
   align-items: center !important;
   align-content: center;
   width: 90px;
-  box-shadow: 1px 1px 5px  rgb(0, 255, 213);
+  box-shadow: 1px 1px 5px rgb(45, 104, 255) ;
   height: 90px;
   margin: auto;
 }
@@ -243,7 +243,25 @@ text-align: center;
 }
 
 }
+@media only screen and (max-width:350px){
+.name_div{
 
+  margin-left: -1rem;
+  
+}
+.nav{
+
+  margin-left: -1rem;
+  padding-right: 0.4rem;
+}
+.btn_nav{
+  margin-right: -0.3rem;
+}
+.mid{
+  position: sticky;
+   top: 0;
+}
+}
 .form{
   position: absolute;
   top: 0.1rem;
@@ -256,7 +274,7 @@ padding-top: 4rem;
   
   width: fit-content;
   margin: auto;
-  box-shadow: 1px 1px 5px  rgb(0, 255, 213);
+  background:rgb(194, 211, 255) ;
   border-radius: 15px;
   padding: 1rem;
   background: white;
@@ -308,7 +326,7 @@ border-radius: 10px;
   position: absolute;
   background: white;
   border-radius: 10px;
-  box-shadow: 1px 1px 5px rgb(132, 255, 224);
+  box-shadow: 1px 1px 5px rgb(194, 211, 255) ;
   padding: 1rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -409,12 +427,13 @@ margin-top: 0.5rem;
 
 }
 .about p{
-background: rgb(0, 255, 213);
-color: white;
+ 
+  color: rgba(0, 0, 255, 0.906);
 padding: 1rem;
-box-shadow: 1px 1px 5px rgb(0, 153, 128);
+box-shadow: 1px 1px 5px  rgb(194, 211, 255) ;
 border-radius: 5px;
 font-family: "roboto";
+border: 1px solid  rgba(0, 0, 255, 0.906);;
 
 font-weight: 500;
 }
